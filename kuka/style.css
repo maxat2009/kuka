@@ -12,9 +12,26 @@ header{
 button{
     height: 40px;
     width: 100px;
+    cursor: pointer;
 }
 
 h1{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding: 25px;
+    font-family: "Lobster", sans-serif;
+}
+
+h2{
+    font-family: "Lobster", sans-serif;
+    font-size: 30px;
+}
+
+p{
+    text-indent: 30px;
+    text-align: justify;
     margin: 0;
 }
 
@@ -23,6 +40,8 @@ h1{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    min-height: 100vh;
+    width: 100%;
 }
 
 .buttons{
@@ -42,20 +61,157 @@ h1{
     justify-content: flex-end;
 }
 
+.without_zag{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
 
+.without_img{
+    width: 50%;
+}
 
+.with_img{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.imag{
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.503);
+    width: 450px;
+    height: 600px;
+    border-radius: 20px;
+}
 
+.history_text{
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
-.history{
-    display: none;
+.text1{
+    font-size: 19px;
+    width: 700px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 4px solid black;
+    font-family: "Nunito", sans-serif;
+}
+
+.text2{
+    font-family: "Caveat", cursive;
+    font-size: 25px;
+    background-color: white;
+    width: 550px;
+    border-radius: 20px;
+    padding: 30px;
+    border: 2px dashed black;
+    text-align: justify;
+}
+
+.text3{
+    font-family: "Nunito", sans-serif;
+    font-size: 19px;
+    background-color: white;
+    border-radius: 20px;
+    border: 4px solid black;
+    width: 700px;
+    padding: 20px;
 }
 
 .nauka{
-    display: none;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.501);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.499);
+}
+
+.nauka_text{
+    font-size: 19px;
+    font-family: "Nunito", sans-serif;
+    width: 80%;
+}
+
+ul.nauka_ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul.nauka_ul li{
+    background-color: white;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-left: 5px solid black; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    font-family: "Nunito", sans-serif;
 }
 
 .use{
+    margin: 31px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.501);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.499);
+}
+
+.use_text{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.ttt{
+    width: 90%;
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+}
+
+ul.use_ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul.use_ul li{
+    background-color: white;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-left: 5px solid black; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    font-family: "Nunito", sans-serif;
+}
+
+
+
+
+
+
+.sostav{
+    display: none;
+}
+
+.history{
+    width: 100%;
     display: none;
 }
 
