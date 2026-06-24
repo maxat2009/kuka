@@ -5,7 +5,7 @@ html, body{
 
 header{
     height: 150px;
-    background-color: red;
+    background-color: black;
     
 }
 
@@ -96,7 +96,7 @@ p{
 
 .text1{
     font-size: 19px;
-    width: 700px;
+    width: 95%;
     background-color: white;
     padding: 20px;
     border-radius: 20px;
@@ -108,21 +108,11 @@ p{
     font-family: "Caveat", cursive;
     font-size: 25px;
     background-color: white;
-    width: 550px;
+    width: 75%;
     border-radius: 20px;
     padding: 30px;
     border: 2px dashed black;
     text-align: justify;
-}
-
-.text3{
-    font-family: "Nunito", sans-serif;
-    font-size: 19px;
-    background-color: white;
-    border-radius: 20px;
-    border: 4px solid black;
-    width: 700px;
-    padding: 20px;
 }
 
 .nauka{
@@ -139,9 +129,12 @@ p{
     font-size: 19px;
     font-family: "Nunito", sans-serif;
     width: 80%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
 }
 
-ul.nauka_ul{
+ul.ull{
     list-style: none;
     padding: 0;
     display: flex;
@@ -149,7 +142,7 @@ ul.nauka_ul{
     align-items: center;
 }
 
-ul.nauka_ul li{
+ul.ull li{
     background-color: white;
     padding: 15px 20px;
     margin-bottom: 10px;
@@ -173,33 +166,212 @@ ul.nauka_ul li{
 .use_text{
     display: flex;
     width: 90%;
-    justify-content: space-between;
+    justify-content: space-between;;
 }
 
 .ttt{
     width: 90%;
     font-family: "Nunito", sans-serif;
     font-size: 17px;
+    font-weight: bold
 }
 
-ul.use_ul{
-    list-style: none;
-    padding: 0;
+.l_without_img{
+    width: 45%;   
+}
+
+.l_with_img{
+    width: 42%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+}
+
+.part1{
+    display: flex;
+    flex-direction: column;
+    height: 820px;
+    justify-content: space-between;
     align-items: center;
 }
 
-ul.use_ul li{
+.part2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 410px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imag2{
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.503);
+    width: 550px;
+    border-radius: 20px;
+}
+
+.imag3{
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.503);
+    width: 550px;
+    border-radius: 20px;
+}
+
+.d_without_img{
+    width: 50%;
+}
+
+.d_with_img{
+    width: 45%;
+}
+
+.imag4{
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.503);
+    width: 550px;
+    height: 365px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.dobicha_text{
+    font-size: 17px;
+    font-family: "Nunito", sans-serif;
+    width: 80%;
+    margin: 30px;
+}
+
+.text3{
+    font-size: 19px;
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 4px solid black;
+    font-family: "Nunito", sans-serif;
+    margin: auto;
+}
+
+ul.ulll{
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.ulll li{
     background-color: white;
     padding: 15px 20px;
     margin-bottom: 10px;
     border-radius: 8px;
-    border-left: 5px solid black; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 80%;
+    font-size: 17px;
     font-family: "Nunito", sans-serif;
 }
+
+ul.ulll li::before{
+    margin-right: 10px;
+}
+
+.temp::before{
+    content: "🌡️";
+}
+
+.time::before{
+    content: "🕥";
+}
+
+.kapla::before{
+    content: "💧";
+}
+
+.pereriv::before{
+    content: "⌛";
+}
+
+.season::before{
+    content: "📅";
+}
+
+.stakan::before{
+    content: "🥛";
+}
+
+.imag5{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.503);
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.upot_text1{
+    font-size: 19px;
+    font-family: "Nunito", sans-serif;
+    margin-top: 30px;
+}
+
+.upot_text2{
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    padding: 30px;
+}
+
+.ivan{
+    font-size: 19px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+}
+
+.voda{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imag1{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.elements{
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 20px 10px;
+    font-family: "Nunito", sans-serif;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.zag{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.facts{
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    margin: auto;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.nahuya{
+    padding: 25px;
+}
+
+
 
 
 
@@ -207,6 +379,7 @@ ul.use_ul li{
 
 
 .sostav{
+    width: 100%;
     display: none;
 }
 
@@ -216,13 +389,16 @@ ul.use_ul li{
 }
 
 .legends{
+    width: 100%;
     display: none;
 }
 
 .dobicha{
+    width: 100%;
     display: none;
 }
 
 .upotreblenie{
+    width: 100%;
     display: none;
 }
