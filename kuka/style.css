@@ -25,11 +25,7 @@ h1{
     font-size: 50px;
     padding: 25px;
     font-family: "Lobster", sans-serif;
-    background: linear-gradient(to right, blue, white);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
+    color: white;
 }
 
 h2{
