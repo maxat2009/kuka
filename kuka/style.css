@@ -6,13 +6,16 @@ html, body{
 header{
     height: 150px;
     background-color: black;
-    
 }
 
-button{
-    height: 40px;
-    width: 100px;
+button.vklad{
     cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    border-bottom: 2px solid white;
 }
 
 h1{
@@ -22,6 +25,11 @@ h1{
     font-size: 50px;
     padding: 25px;
     font-family: "Lobster", sans-serif;
+    background: linear-gradient(to right, blue, white);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 h2{
@@ -36,7 +44,7 @@ p{
 }
 
 .all{
-    background-image: url(loshad.jpg);
+    background-image: url(bottle.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -371,12 +379,85 @@ ul.ulll li::before{
     padding: 25px;
 }
 
+.test{
+    width: 50%;
+    margin: auto;
+    padding: 100px;
+}
 
+.welcome{
+    font-size: 25px;
+    width: 95%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 4px solid black;
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
 
+button.ne_hochu{
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    font-family: "Nunito", sans-serif;
+    text-decoration: underline;
+}
 
+.quiz{
+    margin-top: 50px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
 
+.question{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+}
 
+button.answer{
+    margin: 10px 0;
+    padding: 20px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 17px;
+    font-family: "Nunito", sans-serif;
+    width: 100%;
+    text-align: left;
+    border-left: 5px solid black;
+    cursor: pointer;
+}
 
+.final{
+    margin-top: 50px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.final_zag{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+}
+
+.final_desc{
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 20px;
+}
 
 .sostav{
     width: 100%;
@@ -401,4 +482,297 @@ ul.ulll li::before{
 .upotreblenie{
     width: 100%;
     display: none;
+}
+
+.lupa{
+    width: 60px;
+    height: 120px;
+    margin-left: 40px;
+}
+
+.kamen{
+    width: 450px;
+    border-radius: 20px;
+}
+
+.chingiz{
+    width: 550px;
+    border-radius: 20px;
+}
+
+
+@media (max-width: 1000px){
+    button.vklad{
+        font-size: 14px;
+        border-bottom: 1px solid white;
+        margin: 8px;
+    }
+
+    .titl{
+        height: 60px;
+        font-size: 23px;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .buttons{
+        height: 90px;
+        flex-wrap: wrap;
+    }
+
+    .test{
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .welcome{
+        font-size: 15px;
+        padding: 10px;
+        border: 2px solid black;
+    }
+
+    button.ne_hochu{
+        font-size: 15px;
+    }
+
+    .quiz{
+        margin-top: 30px;
+        padding: 30px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+
+    .question{
+        font-size: 13px;
+    }
+
+    button.answer{
+        margin: 8px 0;
+        padding: 15px 10px;
+        font-size: 12px;
+    }
+
+    .final{
+        margin-top: 30px;
+        padding: 30px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+
+    .final_zag{
+        font-size: 17px;
+    }
+
+    .final_desc{
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    h1{
+        font-size: 25px;
+        padding: 13px;
+    }
+
+    .voda{
+        width: 95%;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .imag1{
+        width: 100%;
+        order: -1;
+    }
+
+    .elements{
+        width: 95%;
+        padding: auto;
+        height: 500px;
+        margin-top: 20px;
+    }
+
+    .zag{
+        font-size: 14px;
+    }
+
+    p.desc{
+        font-size: 13px;
+    }
+
+    .facts{
+        width: 80%;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        margin: auto;
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    .lupa{
+        width: 30px;
+        height: 60px;
+        margin-left: 0;
+    }
+
+    ul.ull li{
+        padding: 10px;
+        margin-bottom: 5px;
+        border-left: 3px solid black; 
+        width: 80%;
+        font-size: 12px;
+    }
+
+    .without_zag{
+        flex-direction: column;
+    }
+
+    .without_img{
+        width: 90%;
+        margin: auto;
+    }
+
+    .history_text{
+        height: 550px;
+    }
+
+    .text1{
+        font-size: 13px;
+        padding: 10px;
+        border: 2px solid black;
+    }
+
+    .text2{
+        font-size: 17px;
+        width: 95%;
+        padding: 15px;
+        border: 1px dashed black;
+    }
+
+    h2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    p{
+        text-indent: 15px;
+    }
+
+    .nauka{
+        margin: 15px;
+    }
+
+    .nauka_text{
+        font-size: 13px;
+    }
+
+    .with_img{
+        width: 100%;
+    }
+
+    .imag{
+        padding: 15px;
+        width: 90%;
+        height: auto;
+    }
+
+    .kamen{
+        width: 100%;
+    }
+
+    .use{
+        margin: 15px;
+    }
+
+    .ttt{
+        font-size: 13px;
+    }
+
+    .l_without_img{
+        width: 100%;   
+    }
+
+    .l_with_img{
+        width: 100%;
+    }
+
+    .part1{
+        width: 90%;
+        height: 670px;
+        margin: auto;
+    }
+
+    .part2{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 350px;
+    }
+
+    .chingiz{
+        width: 100%;
+    }
+
+    .imag2{
+        padding: 15px;
+        width: 90%;
+    }
+
+    .imag3{
+        padding: 15px;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .d_without_img{
+        width: 100%;
+    }
+
+    .d_with_img{
+        width: 100%;
+    }
+
+    .dobicha_text{
+        font-size: 13px;
+        margin: 20px;
+    }
+
+    .imag4{
+        padding: 15px;
+        width: 90%;
+        height: auto;
+        margin: 15px 0;
+    }
+
+    .text3{
+        font-size: 13px;
+        width: 90%;
+        padding: 10px;
+        border: 2px solid black;
+    }
+
+    .imag5{
+        width: 90%;
+        padding: 15px;
+    }
+
+    .upot_text1{
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .upot_text2{
+        width: 85%;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .ivan{
+        font-size: 14px;
+    }
+
+    ul.ulll li{
+        padding: 10px;
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
 }
