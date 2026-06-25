@@ -5,6 +5,8 @@ const els = [
 
 function perehod(n){
     document.querySelector('.test').style.display = 'none'
+    document.querySelector('.all').style.backgroundImage = 'none'
+    document.querySelector('.all').style.backgroundColor = 'gray'
     for(let i = 0; i < 5; i++){
         if(i == n){
             els[i].style.display = 'block'
