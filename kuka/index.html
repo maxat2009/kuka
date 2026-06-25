@@ -15,11 +15,11 @@
 <body>
     <header>
         <div class="buttons">
-            <button onclick="perehod(0)">Состав</button>
-            <button onclick="perehod(1)">История</button>
-            <button onclick="perehod(2)">Легенды</button>
-            <button onclick="perehod(3)">Добыча</button>
-            <button onclick="perehod(4)">Употреблять</button>
+            <button onclick="perehod(0)" class="vklad">Состав</button>
+            <button onclick="perehod(1)" class="vklad">История</button>
+            <button onclick="perehod(2)" class="vklad">Легенды</button>
+            <button onclick="perehod(3)" class="vklad">Добыча</button>
+            <button onclick="perehod(4)" class="vklad">Как употреблять</button>
         </div>
         <div class="titl">Кука Курортная - вкус Забайкалья!</div>
     </header>
@@ -30,7 +30,7 @@
                 <div class="elements">
                     <div class="element">
                         <div class="zag">Магний (Mg²⁺)</div>
-                        <p>
+                        <p class="desc">
                             В воде его 50–250 мг/л. Поддерживает нервную и сердечно-сосудистую систему: помогает регулировать передачу нервных
                             импульсов, снижает уровень стресса, участвует в расслаблении сердечной мышцы. Магний также улучшает работу почек 
                             (способствует выведению токсинов), положительно влияет на память и контроль над мышцами.
@@ -38,7 +38,7 @@
                     </div>
                     <div class="element">
                         <div class="zag">Кальций (Ca²⁺)</div>
-                        <p>
+                        <p class="desc">
                             Содержание в Куке: 100–400 мг/л. Его основная роль — формирование и поддержание здоровья костей, зубов, волос. Кроме того, 
                             кальций участвует в регуляции некоторых иммунных реакций (поэтому иногда говорят о помощи при аллергии) и влияет на 
                             настроение — его дефицит связывают с повышенной тревожностью и симптомами депрессии.
@@ -46,7 +46,7 @@
                     </div>
                     <div class="element">
                         <div class="zag">Гидрокарбонаты (HCO₃⁻)</div>
-                        <p>
+                        <p class="desc">
                             Их в воде немало — 650–2700 мг/л. Они помогают нормализовать кислотно-щелочной баланс в организме. В контексте ЖКТ 
                             это особенно важно: гидрокарбонаты могут смягчать кислотность, облегчать изжогу и создавать более благоприятную среду 
                             для пищеварения.
@@ -57,21 +57,21 @@
                 <div class="elements">
                     <div class="element">
                         <div class="zag">Железо (Fe)</div>
-                        <p>
+                        <p class="desc">
                             В «Куке Курортной» его немного (не более 20 мг/л). В таких дозах железо не лечит анемию (для этого нужны специальные 
                             препараты), но поддерживает базовый уровень гемоглобина, участвуя в переносе кислорода.
                         </p>
                     </div>
                     <div class="element">
                         <div class="zag">Кремний (в форме метакремниевой кислоты, H₂SiO₃)</div>
-                        <p>
+                        <p class="desc">
                             Концентрация около 50–100 мг/л. Кремний важен для соединительной ткани: он способствует здоровью кожи, волос, ногтей, 
                             а также участвует в поддержании прочности сосудов и хрящей.  
                         </p>
                     </div>
                     <div class="element">
                         <div class="zag">Свободная углекислота (CO₂)</div>
-                        <p>
+                        <p class="desc">
                             В этой воде её действительно много (до 3,6 г/л). Она усиливает диуретический (мочегонный) эффект, что при умеренном 
                             употреблении помогает выводить излишки жидкости и токсины. Также CO₂ улучшает кровообращение, в том числе в почках, что 
                             может быть полезно при некоторых функциональных нарушениях.
@@ -80,7 +80,7 @@
                 </div>
             </div>
             <div class="facts">
-                <img src="searchmagnifierinterfacesymbol1_79893.svg" alt="" width="60px" height="120px" style="margin-left: 40px;">
+                <img src="searchmagnifierinterfacesymbol1_79893.svg" alt="" class="lupa">
                 <ul class="ull">
                     <li>По составу «Куку Курортную» иногда сравнивают с водами Кавказских минеральных источников (например, Железноводской, 
                         Кисловодской), но её отличает более высокое содержание углекислоты и органических веществ.</li>
@@ -125,7 +125,7 @@
                     </div>
                 </div>
                 <div class="with_img">
-                    <div class="imag"><img src="pic2.jpg" alt="" width="450px" style="border-radius: 20px;"></div>
+                    <div class="imag"><img src="pic2.jpg" alt="" class="kamen"></div>
                     <div class="use">
                         <h2>Как использовали воду</h2>
                         <div class="use_text">
@@ -169,8 +169,8 @@
                     </div>
                 </div>
                 <div class="l_with_img">
-                    <div class="imag2"><img src="pic3.jpg" alt="" width="550px" style="border-radius: 20px;"></div>
-                    <div class="imag3"><img src="pic4.jpg" alt="" width="550px" style="border-radius: 20px;"></div>
+                    <div class="imag2"><img src="pic3.jpg" alt="" class="chingiz"></div>
+                    <div class="imag3"><img src="pic4.jpg" alt="" class="chingiz"></div>
                 </div>
             </div>
         </div>
@@ -192,7 +192,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="imag4"><img src="pic5.jpg" alt="" width="550px" style="border-radius: 20px;"></div>
+                <div class="imag4"><img src="pic5.jpg" alt="" width="100%" style="border-radius: 20px;"></div>
             </div>
             <div class="text3">Схему выстроили так, чтобы не «консервировать» воду химикатами и не корректировать состав искусственно. 
                         А вот газируют её уже на производстве — насыщают углекислотой (причём CO₂ тоже берут из местного забайкальского источника).</div>
@@ -201,7 +201,7 @@
             <h1>Правильное употребление</h1>
             <div class="without_zag">
                 <div class="imag5">
-                    <img src="pic6.jpg" alt="" width="400px" style="border-radius: 20px;">
+                    <img src="pic6.jpg" alt="" width="100%" style="border-radius: 20px;">
                     <div class="upot_text1">Чтобы получить максимум пользы от данной воды, нужно проконсультироваться с врачом.</div>
                 </div>
                 <div class="upot_text2">
@@ -215,6 +215,26 @@
                         <li class="season">Курс: обычно 3–4 недели, затем нужен перерыв (1–2 месяца).</li>
                     </ul>
                 </div>
+            </div>
+        </div>
+        <div class="test">
+            <div class="welcome">
+                Тест "Кто ты из Забайкалья?"
+                <button onclick="perehod(0)" class="ne_hochu">Пропустить</button>
+            </div>
+            <div class="quiz">
+                <div class="question">Вопрос 1. Ты приезжаешь в новое место. Что делаешь в первые 15 минут?</div>
+                <button class="answer" onclick="next(0)" id="btn0">Иду туда, где видно горизонт: поле, сопка, берег. Хочется понять масштаб и насладиться красотой места.</button>
+                <button class="answer" onclick="next(1)" id="btn1">Ищу тихое место, чтобы просто выдохнуть и привыкнуть.</button>
+                <button class="answer" onclick="next(2)" id="btn2">Первым делом — в самое шумное и многолюдное место, чтобы прочувствовать атмосферу и ритм.</button>
+                <button class="answer" onclick="next(3)" id="btn3">Сразу направляюсь в парк или сквер, чтобы пройтись по дорожкам и обдумать дальнейшие приключения.</button>
+                <button class="answer" onclick="next(4)" id="btn4">Читаю таблички и информационные стенды: мне важно понять, что здесь происходило или планируется.</button>
+            </div>
+            <div class="final">
+                <img src="char.jpg" alt="" width="100%" class="maga">
+                <div class="final_zag">Поздравляю! Ты - "Чарские пески"</div>
+                <div class="final_desc">Чарские пески - это пустыня среди тайги и гор, место, которое действительно удивляет масштабами. Ты - как эти пески: любишь простор и не боишься быть не таким, как все. 
+                    Тебе нужен горизонт, чтобы чувствовать себя живым, и ты готов идти туда, где ещё никто не был.</div>
             </div>
         </div>
     </div>
